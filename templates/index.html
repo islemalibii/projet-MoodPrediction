@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Song Mood Predictor</title>
+</head>
+<body>
+    <h1>Enter Song Details</h1>
+    <form action="/predict" method="post">
+        <label for="lyrics">Lyrics:</label><br>
+        <textarea id="lyrics" name="lyrics" rows="5" cols="50"></textarea><br><br>
+
+        <label for="danceability">Danceability:</label>
+        <input type="text" id="danceability" name="danceability"><br><br>
+
+        <label for="energy">Energy:</label>
+        <input type="text" id="energy" name="energy"><br><br>
+
+        <label for="valence">Valence:</label>
+        <input type="text" id="valence" name="valence"><br><br>
+
+        <label for="tempo">Tempo:</label>
+        <input type="text" id="tempo" name="tempo"><br><br>
+
+        <label for="acousticness">Acousticness:</label>
+        <input type="text" id="acousticness" name="acousticness"><br><br>
+
+        <label for="loudness">Loudness:</label>
+        <input type="text" id="loudness" name="loudness"><br><br>
+
+        <label for="liveness">Liveness:</label>
+        <input type="text" id="liveness" name="liveness"><br><br>
+
+        <input type="submit" value="Predict Mood">
+    </form>
+</body>
+</html>
